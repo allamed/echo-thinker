@@ -36,3 +36,29 @@
     transform: rotate(360deg);
   }
 }
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Full height of the viewport */
+  justify-content: space-between; /* Distribute space */
+}
+
+.text-area {
+  flex-grow: 1; /* Take up remaining space */
+  margin: 10px;
+  padding: 10px;
+  resize: none; /* Optional, disables resizing of the textarea */
+}
+
+.recorder-container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: flex-end; /* Align to bottom */
+  height: 5px; /* Small height */
+  margin: 10px;
+}
+
+/* Style for the Recorder component if needed */
+.Recorder {
+  /* Additional styles if needed */
+}
